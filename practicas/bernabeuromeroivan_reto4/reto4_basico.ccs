@@ -1,9 +1,0 @@
-/* Estilo para el segundo párrafo (id="p2") */
-#p2 {
-    text-decoration: underline;
-}
-
-/* Estilo para el tercer párrafo con la clase "texto-color-azul" */
-.texto-color-azul {
-    color: blue;
-}
