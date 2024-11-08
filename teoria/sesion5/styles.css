@@ -1,0 +1,20 @@
+html, 
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main{
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+}
+
+.c1{
+    background-color: blue;
+    height: 100px;
+}
+
+.c2{
+    background-color: red;
+}
