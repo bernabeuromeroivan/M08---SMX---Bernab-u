@@ -13,8 +13,11 @@ body {
 .c1{
     background-color: blue;
     height: 100px;
+    width: 80%;
 }
 
 .c2{
     background-color: red;
+    height: 100px;
+    width: 80%;
 }
