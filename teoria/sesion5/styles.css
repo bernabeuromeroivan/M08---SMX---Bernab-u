@@ -15,12 +15,11 @@ body {
     background-color: blue;
     height: 100px;
     width: 80%;
-    margin: 70px;
+    padding: 50px;
 }
 
 .c2{
     background-color: red;
     height: 100px;
     width: 80%;
-    margin: 70px;
 }
