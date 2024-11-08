@@ -8,16 +8,19 @@ body {
     height: 50%;
     width: 50%;
     background-color: brown;
+    padding: 50px;
 }
 
 .c1{
     background-color: blue;
     height: 100px;
     width: 80%;
+    margin: 70px;
 }
 
 .c2{
     background-color: red;
     height: 100px;
     width: 80%;
+    margin: 70px;
 }
