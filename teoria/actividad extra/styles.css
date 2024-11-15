@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-image:url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxpYnJvcyUyMGFiaWVydG9zfGVufDB8fDB8fHww');
+    padding: 70px;
 }
 
 main {
@@ -9,39 +10,48 @@ main {
 }
 
 h1 {
+    border: yellow 5px solid ;
+    padding: 10px;
+    font-family: "Doto";
     color: white;
-    border: yellow Spx solid ;
 }
 
 h2 {
     color: white;
-    border: palevioletred 3px dotted;
+    border: palevioletred 3px solid;
+    padding: 5px;
 }
 
-#libro {
-    color: orangered;
-}
-
-#datos {
+ul {
+    border: green solid 5px;
     color: blue;
 }
 
-#description {
-    color: royalblue;
+ul li {
+    padding: 10px;
+    color: blue;
 }
 
-p {
+#descripcion {
+    background-color:darkslateblue ;
+    text-align: center;
+    padding: 40px;
     color: white;
+    width: 50%;
+    margin: auto;
 }
 
-#p1 {
-    color: white;
+#descripcion h2 {
+    color: pink;
+    border: none;    
 }
 
 #contenido {
+    color: white;
 
 }
 
-li {
-    color: blue;
+.laquetuquieras {
+    color: white;
 }
+
