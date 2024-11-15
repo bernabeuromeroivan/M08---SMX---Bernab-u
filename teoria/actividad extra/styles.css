@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-image:url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxpYnJvcyUyMGFiaWVydG9zfGVufDB8fDB8fHww');
+}
+
+main {
+    background-color: brown;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#libro {
+    color: orangered;
+}
+
+#datos {
+    color: blue;
+}
+
+#description {
+    color: royalblue;
+}
+
+p {
+    color: white;
+}
+
+#p1 {
+    color: white;
+}
+
+#contenido {
+
+}
+
+li {
+    color: blue;
+}
