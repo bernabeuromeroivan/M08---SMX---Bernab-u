@@ -1,5 +1,7 @@
 body {
-    background-color: aliceblue;    
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;    
 }
 
 footer {
@@ -9,15 +11,30 @@ footer {
     padding: 20px 0 20px 0;
     font-weight: normal;
     font-size: 12px;
-    text-transform: capitalize;
+    text-transform: capitalize;    
+}
+
+header {
+    background-color: aquamarine;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .card {
     display: inline-block;
     width:20%;
-    margin: 10px;
+    margin:10px;
 }
 
 img {
     width: 100%;
+}
+
+.main {
+    align-items: center;
+    text-align: center;
 }
