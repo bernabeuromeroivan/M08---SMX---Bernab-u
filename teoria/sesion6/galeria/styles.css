@@ -9,4 +9,9 @@ footer {
     padding: 20px 0 20px 0;
     font-weight: normal;
     font-size: 12px;
+    text-transform: capitalize;
+}
+
+.card {
+    display: inline-block;
 }
