@@ -14,5 +14,10 @@ footer {
 
 .card {
     display: inline-block;
-    width: ;
+    width:20%;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
 }
