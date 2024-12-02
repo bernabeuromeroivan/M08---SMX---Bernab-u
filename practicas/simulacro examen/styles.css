@@ -1,38 +1,94 @@
-header {
-    padding: 1em 0;
-    background-color: grey;
-}
-
 body {
-    color: rgba(0, 0, 0, .87);
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
-    font-size: .8125rem;
-    font-weight: 400;
-    line-height: 1.25rem;
     margin: 0;
-    min-width: 18.75rem;
-}
-
-nav ul li {
-    font-size: 1.1em;
-    display: inline-block;
-    margin: 20px 20px;
-}
-
-nav ul li a {
+    font-family: Arial, sans-serif;
     color: white;
+    background: url('https://static.vecteezy.com/system/resources/previews/017/187/795/non_2x/luxury-gold-abstract-line-art-background-mountain-topographic-terrain-map-background-with-gold-lines-texture-design-illustration-for-wall-art-fabric-packaging-web-banner-app-wallpaper-vector.jpg') no-repeat center/cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #333;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    margin: 20px;
+}
+
+.navli {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navli li {
+    margin: 0 10px;
+}
+
+.navli a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
-section {
-    padding: 50px 20px;
-    margin: 0 auto;
-    max-width: 900px;
-    background-color: white;
-    margin-bottom: 30px;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+.izquierda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 100vh;
+}
+
+.izquierdadiv {
+    max-width: 50%;
+}
+
+.izquierdadiv h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.izquierdadiv .highlight {
+    color: orange;
+}
+
+.izquierdadiv p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.izquierdadiv .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.derecha {
+    background-color: orange;
+    padding: 40px;
     border-radius: 10px;
+    max-width: 1000px;
 }
 
+.derecha h2 {
+    color: white;
+}
 
+.derecha ul {
+    padding: 0;
+    margin: 10px 0 0 0;
+}
 
+.derecha li {
+    color: white;
+    margin: 10px 0;
+}
