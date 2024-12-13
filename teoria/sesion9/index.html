@@ -1,15 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explicacion de Flex</title>
+
+    <style>
+
+        .container{
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+        }
+
+        .element{
+            padding: 0px;
+            margin: 50px;
+            border-radius: 20px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        main img{
+            width: 100px;
+        }
+
+        .avatar img{
+            width: 80px;
+            border-radius: white solid 2px;
+            border-radius: 100%;
+        }
+    </style>
 </head>
 <body>
-    <main class="Container">
-        <div class="elemement">E1</div>
-        <div class="elemement">E2</div>
-        <div class="elemement">E3</div>
+    <main class="container">
+        <div class="element"><img src="https://i.pinimg.com/originals/bf/34/ec/bf34ec49cb756dec79940fa5864932f1.png" alt=""></div>
+        <div class="element">E2</div>
+        <div class="element avatar"><img src="https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png" alt=""></div>
     </main>
+    <section id="section videos">
+        <video src="mivideo" "controls autoplay"></video>
+        <video src=""></video>
+        <video src=""></video>
+    </section>
 </body>
 </html>
