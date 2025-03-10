@@ -23,7 +23,6 @@
         <p>Participa en el torneig de videojocs més prestigiós de l'any, on els millors jugadors del món competiran per la glòria i un premi de 100.000 $.</p>
         <button class="boton"><a href="">Inscriu-te ara</a></button>   
     </div>
-
     <h2>Horari del torneig</h2>
     <p>Marca al teu calendari aquests emocionants partits i esdeveniments. Totes les hores estan en EST</p>
     <table>
@@ -97,7 +96,41 @@
             <td>Final</td>
             <td>Main Arena</td>
         </tr>
-    </table>  
+    </table>
+<div class="">
+    <form action="index.html" style="text-align:center; margin:auto; width: 25%; display: flex; flex-direction: column"      
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" name="Nom complet" required placeholder="Pon aquí tu nombre">
+
+        <label for="surname">Apellidos</label>
+        <input type="text" id="surname" name="cognoms">
+
+        <label for="email">Correu electònic</label>
+        <input type="email">
+
+        <label for="mensaje"></label>
+        <textarea name="mensaje" id="mensaje"></textarea>
+
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+
+        <p>Intereses:</p>
+        <input type="checkbox" id="deportes" name="intereses" value="deportes">
+        <label for="deportes">Deportes</label>
+        <input type="checkbox" id="musica" name="intereses" value="musica">
+        <label for="musica">Música</label>
+
+        <label for="seleccion-genero">Género</label>
+        <select name="gen" id="seleccion-genero">
+            <option value="">Selecciona un género</option>
+            <option value="rap">Rap</option>
+            <option value="rock">Rock</option>
+            <option value="blues">Blues</option>
+            <option value="Rtechno">Techno</option>
+            <option value="trance">Trance</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
 </div> 
 </body>
 </html>
