@@ -26,4 +26,6 @@ nav, li{
 }
 .boton{
    justify-content: center;
+   border-radius: 100px;
+   
 }
