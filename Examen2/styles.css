@@ -1,12 +1,17 @@
+header {
+    background-color: black;
+}
+
+
 nav, li{
     display: flex;
     padding: 20px;
     margin-right: 200px;
-    gap: 50px;
+    gap: 20px;
     text-align: end;
+    color: white;
 }
 
-img {
-    width: 200px;
-    align-items: flex-start;
+#GCLlefia{
+    color: palevioletred;
 }
