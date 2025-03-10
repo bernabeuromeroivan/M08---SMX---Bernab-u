@@ -1,14 +1,15 @@
 header {
     background-color: black;
+    justify-content: space-between;
 }
 
 
 nav, li{
     display: flex;
-    padding: 20px;
+    padding: 30px;
     margin-right: 200px;
     gap: 20px;
-    text-align: end;
+    align-items: center;
     color: white;
 }
 
@@ -19,8 +20,9 @@ nav, li{
 .container1{
     text-align: center;
     justify-content: center;
-    color: black;
+    color: white;
     background-image: url(https://st.depositphotos.com/4413287/55103/i/450/depositphotos_551033520-stock-illustration-vintage-texture-background-canvas-tablecloth.jpg);
+    height: 500px;
 }
 .boton{
    justify-content: center;
