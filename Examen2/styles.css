@@ -1,0 +1,12 @@
+nav, li{
+    display: flex;
+    padding: 20px;
+    text-align: right;
+    margin-left: 200px;
+    gap: 20px;
+}
+
+img {
+    width: 200px;
+    align-items: flex-start;
+}
