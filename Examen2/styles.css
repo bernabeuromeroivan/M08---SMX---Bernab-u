@@ -22,6 +22,7 @@ nav, li{
     color: white;
     background-image: url(https://st.depositphotos.com/4413287/55103/i/450/depositphotos_551033520-stock-illustration-vintage-texture-background-canvas-tablecloth.jpg);
     height: 500px;
+    padding-top: 100px;
 }
 .boton{
    justify-content: center;
