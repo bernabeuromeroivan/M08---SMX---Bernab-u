@@ -21,7 +21,7 @@
     <div id="container1">
         <h1>CAMPIONAT DE GAMING FP LLEFIÀ</h1>
         <p>Participa en el torneig de videojocs més prestigiós de l'any, on els millors jugadors del món competiran per la glòria i un premi de 100.000 $.</p>
-        <button class="boton"><a href="">Inscriu-te ara</a></button>   
+        <button class="boton">Inscriu-te ara</button>   
     </div>
     <h2>Horari del torneig</h2>
     <p>Marca al teu calendari aquests emocionants partits i esdeveniments. Totes les hores estan en EST</p>
@@ -97,39 +97,37 @@
             <td>Main Arena</td>
         </tr>
     </table>
-<div class="">
+    <h2>Inscripció al Torneig</h2>
+    <p>Omple el següent formulari per assegurar la teva plaça al Campionat Ultimate Gaming.</p>
     <form action="index.html" style="text-align:center; margin:auto; width: 25%; display: flex; flex-direction: column"      
         <label for="name">Nom complet</label>
-        <input type="text" id="name" name="Nom complet" required placeholder="Pon aquí tu nombre">
+        <input type="text" id="name" name="Nom complet">
 
-        <label for="surname">Apellidos</label>
+        <label for="surname">Correu electrònic</label>
         <input type="text" id="surname" name="cognoms">
 
-        <label for="email">Correu electònic</label>
+        <label for="email">Número de telèfon</label>
         <input type="email">
 
-        <label for="mensaje"></label>
-        <textarea name="mensaje" id="mensaje"></textarea>
-
-        <input type="radio" id="femenino" name="genero" value="femenino">
-        <label for="femenino">Femenino</label>
-
-        <p>Intereses:</p>
-        <input type="checkbox" id="deportes" name="intereses" value="deportes">
-        <label for="deportes">Deportes</label>
-        <input type="checkbox" id="musica" name="intereses" value="musica">
-        <label for="musica">Música</label>
-
-        <label for="seleccion-genero">Género</label>
-        <select name="gen" id="seleccion-genero">
-            <option value="">Selecciona un género</option>
-            <option value="rap">Rap</option>
-            <option value="rock">Rock</option>
-            <option value="blues">Blues</option>
-            <option value="Rtechno">Techno</option>
-            <option value="trance">Trance</option>
+        <label for="seleccion-joc">Joc</label>
+        <select name="gen" id="seleccion-joc">
+            <option value="">Selecciona un joc</option>
+            <option value="Valorant">Valorant</option>
+            <option value="LOL">League Of Legends</option>
+            <option value="CSGO2">Counter-Strike 2</option>
+            <option value="Dota2">Dota 2</option>
         </select>
-        <button type="submit">Enviar</button>
+
+        <label for="nom-equip">Nom de l'equip</label>
+        <input type="nom-equip">
+
+        <label for="experiencia">Experiencia com a equip gamer</label>
+        <input type="experiencia">
+
+        <label for="Addicional">Informacio Addicional</label>
+        <input type="Addicional">
+
+        <button class="boton">Enviar</button>
     </form>
 </div> 
 </body>
