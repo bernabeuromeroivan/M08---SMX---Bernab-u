@@ -3,7 +3,6 @@ header {
     justify-content: space-between;
 }
 
-
 nav, li{
     display: flex;
     padding: 30px;
@@ -30,7 +29,7 @@ nav, li{
    width: 150px;
    height: 50px;
    cursor: pointer;
-   background-color: palevioletred;
+   background-color: #FF4C4C;
 }
 
 #container2{
