@@ -20,7 +20,7 @@ body{
 .lado-izquierdo{
     background-color: #984851;
     height: 1024px;
-    width: 350px;
+    width: 25%;
 }
 
 .imagen{
@@ -77,11 +77,12 @@ li{
     color: white;
     font-size: 20px;
     cursor: pointer;
+    
 }
 
 .pie{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
     color: white;
 }
 
@@ -91,5 +92,45 @@ li{
 }
 
 .titulo{
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
     text-align: center;
 }
+
+.texto-derecha{
+    text-align: center;
+    color: white;
+}
+
+.parte-arriba{
+    width: 1000px;
+}
+
+.imagen-medio{
+    margin-top: 100px;
+    width: 500px;
+    margin-left: -350px;
+}
+
+.reflux{
+    margin-left: 600px;
+    margin-top: -250px;
+    color: white;
+    font-size: 30px;
+}
+
+.lorem{
+    width: 400px;
+    margin-left: 625px;
+    text-align: left;
+    color: white;
+}
+
+.boton{
+    padding: 15px;
+    margin-left: 350px;
+    color: #984851;
+}
+
